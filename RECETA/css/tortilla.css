@@ -1,0 +1,9 @@
+/*************************************************************/
+/*      hoja de estilo de tortilla.html                      */
+/*      autor: Jorge Bech Castillo                           */
+/*      fecha: octubre 2023                                  */
+/*      comentario: ejercicio para portfolio                 */
+/*************************************************************/
+
+*{box-sizing: border-box;}
+body {background-color: blue}
