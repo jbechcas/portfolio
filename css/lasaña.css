@@ -1,0 +1,56 @@
+/*************************************************************/
+/*      hoja de estilo de lasaña.html                        */
+/*      autor: Jorge Bech Castillo                           */
+/*      fecha: octubre 2023                                  */
+/*      comentario: ejercicio para portfolio                 */
+/*************************************************************/
+
+
+@font-face {
+    font-family: textonormal ;
+    src: url(../fonts/SFCartoonistHand.ttf);
+}
+@font-face {
+    font-family: titulo ;
+    src: url(../fonts/BlubyKids-Regular.otf);
+}
+/*2 Selector wildcard (si lo hay) */
+*{box-sizing: border-box;}/* indica que el width de cada box será contando el borde hacia dentro */
+
+/*3 estructura del layout general */
+
+body {background-image:url(/img/fondo.jpg);
+    font-family: textonormal;
+    font-size: 1.6em;}
+p{
+    font-size: 1.8em;}
+#wrapper{background-color: rgb(168, 168, 168);
+    width: 80%;
+    margin: auto;
+    padding: 3%;}
+#wrapper2{background-color: rgb(110, 108, 108);
+    margin:auto;
+    width:45%;
+    padding: 1%;
+    border-radius:20%;}
+
+/*4 section a section (si la hubiera) en detalle*/
+ul{margin-left: 2%;}
+
+h1, h2{ font-family: titulo;
+    color: rgb(226, 217, 217);
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+h1 {font-size: 3.5em;
+    width: 45%;}
+h2 {font-size: 2.5em;}
+
+#lasana {
+    max-width: 50%;
+        display: block; /** fuerza a la imagen a comportarse como un lboque**/
+        margin: 5vh auto;   /** como un bloqoue, y la centra**/
+   }
