@@ -19,7 +19,7 @@
 
 /*3 estructura del layout general */
 
-body {background-image:url(/img/fondo.jpg);
+body {background-image:url(../img/fondo.jpg);
     font-family: textonormal;
     font-size: 1.6em;}
 p{
