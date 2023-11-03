@@ -30,7 +30,8 @@ body {background-image:url(../img/fondo.jpg);
     margin:auto;
     width:60%;
     padding: 1%;
-    border-radius:20%;}
+    box-shadow: 7px 7px 7px rgb(65, 64, 64);
+   }
 
 /*4 section a section (si la hubiera) en detalle*/
 ul{margin-left: 2%;}
@@ -68,4 +69,5 @@ h2 {font-size: 2.1em;}
     #wrapper { width: 95%; }
     body {font-size: 1.2em;}
 }
+
 
