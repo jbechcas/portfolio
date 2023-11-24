@@ -1,0 +1,167 @@
+/*******************************************************/
+/*********************** Fonts *************************/
+/*******************************************************/
+
+/*Text font*/
+@font-face {
+    src: url(../font/bloodlust.ttf);
+    font-family: text;
+}
+
+/*General Style*/
+body {
+    background-color: rgb(0, 0, 0);
+}
+p {
+    font-family: text;
+}
+
+/*Box Style*/
+#scenario {
+    background-image: url(../img/wallpaper.jpg);
+    height: 614px;
+    width: 1600px;
+    margin: auto;
+    position: relative;
+}
+
+#cup {
+    width: 80px;
+    height: 75px;
+    position: absolute;
+    top: 370px;
+    left: 1240px;
+    
+}
+
+#window {
+    width: 600px;
+    height: 160px;
+    top: 200px;
+    left: 700px;
+    position: relative;
+    
+}
+
+#springtrap {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    visibility: hidden;
+    
+}
+
+#freddy {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    visibility: hidden;
+    
+}
+
+#nose {
+    position: absolute;
+    top: 200px;
+    height: 30px;
+    width: 30px;
+    left: 150px;
+    
+}
+
+#guitar {
+    position: absolute;
+    top: 330px;
+    height: 120px;
+    width: 95px;
+    left: 590px;
+    
+}
+
+#freddysbody {
+    position: absolute;
+    top: 290px;
+    height: 100px;
+    width: 115px;
+    left: 110px;
+    
+}
+
+/*Phone guy dialogues*/
+#textphoneguy,
+#textphoneguy2,
+#textphoneguy3,
+#textphoneguy4,
+#textphoneguy5,
+#textphoneguy6,
+#textphoneguy7 {
+    position: absolute;
+    top: 200px;
+    height: 100px;
+    width: 1000px;
+    left: 200px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes start {
+    0% { color: rgb(18, 130, 0); font-size: 2em; visibility: visible; }
+    100% { color: rgb(47, 255, 0); font-size: 2.5em; visibility: hidden; }
+}
+
+/*Dialogue Order*/
+#textphoneguy {
+    animation-name: start;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+}
+
+#textphoneguy2 {
+    animation-name: start;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 5s; 
+}
+
+#textphoneguy3 {
+    animation-name: start;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 10s; 
+}
+
+#textphoneguy4 {
+    animation-name: start;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 15s; 
+}
+
+#textphoneguy5 {
+    animation-name: start;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 20s; 
+}
+
+#textphoneguy6 {
+    animation-name: start;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 25s;
+}
+
+#textphoneguy7 {
+    animation-name: start;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 30s; 
+}
