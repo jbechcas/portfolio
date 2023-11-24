@@ -87,14 +87,7 @@ p {
 }
 
 /*Phone guy dialogues*/
-#textphoneguy,
-#textphoneguy2,
-#textphoneguy3,
-#textphoneguy4,
-#textphoneguy5,
-#textphoneguy6,
-#textphoneguy7 
-#textphoneguy8{
+.text{
     position: absolute;
     top: 200px;
     height: 100px;
@@ -113,7 +106,7 @@ p {
 /*Dialogue Order*/
 #textphoneguy {
     animation-name: start;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-delay: 0s;
@@ -124,15 +117,15 @@ p {
     animation-duration: 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 6s; 
+    animation-delay: 5s; 
 }
 
 #textphoneguy3 {
     animation-name: start;
-    animation-duration: 6s;
+    animation-duration: 7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 12s; 
+    animation-delay: 11s; 
 }
 
 #textphoneguy4 {
@@ -148,7 +141,7 @@ p {
     animation-duration: 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 20s; 
+    animation-delay: 24s; 
 }
 
 #textphoneguy6 {
@@ -156,15 +149,15 @@ p {
     animation-duration: 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 26s;
+    animation-delay: 30s;
 }
 
 #textphoneguy7 {
     animation-name: start;
-    animation-duration: 6s;
+    animation-duration: 8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 32s; 
+    animation-delay: 36s; 
 }
 
 #textphoneguy8 {
@@ -172,5 +165,5 @@ p {
     animation-duration: 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 38s; 
+    animation-delay: 44s; 
 }
