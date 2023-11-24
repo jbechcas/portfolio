@@ -93,7 +93,8 @@ p {
 #textphoneguy4,
 #textphoneguy5,
 #textphoneguy6,
-#textphoneguy7 {
+#textphoneguy7 
+#textphoneguy8{
     position: absolute;
     top: 200px;
     height: 100px;
@@ -164,4 +165,12 @@ p {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-delay: 32s; 
+}
+
+#textphoneguy8 {
+    animation-name: start;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 38s; 
 }
