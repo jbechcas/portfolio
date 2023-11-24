@@ -32,7 +32,7 @@ body {background-image:url(../img/fondo.jpg);
     width:60%;
     padding: 1%;
     box-shadow: 7px 7px 7px rgb(65, 64, 64);
-   }
+}
 
 /*4 section a section (si la hubiera) en detalle*/
 ul{margin-left: 2%;}
@@ -54,7 +54,7 @@ h2 {font-size: 2.1em;}
     max-width: 50%;
         display: block; /** fuerza a la imagen a comportarse como un lboque**/
         margin: 5vh auto;   /** como un bloqoue, y la centra**/
-   }
+}
 
 @media only screen and (max-width: 900px) { /*corte para un tablet*/
     #wrapper { width: 95%; }
