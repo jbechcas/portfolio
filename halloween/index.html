@@ -13,6 +13,7 @@
         <!--Images-->
         <img id="springtrap" src="./img/springtrap.gif" alt="">
         <img id="freddy" src="./img/freddy.gif" alt="">
+        <img id="chica" src="./img/chica.gif" alt="">
 
         <!--Audio-->
         <audio id="screamspringtrap"><source src="./sound/fnaf-scream.mp3" type="audio/mp3"></audio>
@@ -20,12 +21,14 @@
         <audio id="guitarsound"><source src="./sound/guitar.mp3" type="audio/mp3"></audio>
         <audio id="sipcup"><source src="./sound/sip-coffee.mp3" type="audio/mp3"></audio>
         <audio id="screamfreddy"><source src="./sound/screamfreddy.mp3" type="audio/mp3"></audio>
+        <audio id="screamchica"><source src="./sound/chica.mp3" type="audio/mp3"></audio>
         
         <!--Boxes with their respective actions when clicked-->
         <div id="window" onclick="show('springtrap');play('screamspringtrap')" onmouseout="hide('springtrap');pause('screamspringtrap')"></div>
         <div id="nose" onclick="play('nosefreddy')"></div>
         <div id="guitar" onclick="play('guitarsound')"></div>
         <div id="cup" onclick="play('sipcup')"></div>
+        <div id="papelera" onclick="show('chica');play('screamspringtrap')" onmouseout="hide('chica');pause('screamspringtrap')"></div>
         <div id="textphoneguy" class="text">
             <p>Hello! Welcome to the night shift at Freddy Fazbear's Pizza.</p> <!--Phone guy's dialogues-->
         </div>
@@ -48,6 +51,9 @@
             <p>If you feel very lonely and tired, you can play the guitar to your left to stay awake.</p> <!--Phone guy's dialogues-->
         </div>
         <div id="textphoneguy8" class="text">
+            <p>Finally, avoid touching the trash can.</p> <!--Phone guy's dialogues-->
+        </div>
+        <div id="textphoneguy9" class="text">
             <p>Good luck!!</p> <!--Phone guy's dialogues-->
         </div>
         <div id="freddysbody" onclick="show('freddy');play('screamfreddy')" onmouseout="hide('freddy');pause('screamfreddy')"></div>
